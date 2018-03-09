@@ -1,5 +1,7 @@
+// if you've got the main Devtools open, highlight the WebView tag, hit ESC, then type $0.openDevTools()
 // import { ipcRenderer } from 'electron';
 // import path from 'path';
+const { ipcRenderer } = require('electron');
 const path = require('path');
 
 const getTeamIcon = function getTeamIcon(count = 0) {
