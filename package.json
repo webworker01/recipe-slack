@@ -1,10 +1,11 @@
 {
-  "id": "slack",
-  "name": "Slack",
+  "id": "slack-adv",
+  "name": "Slack Adv",
   "version": "1.0.8",
-  "description": "Slack",
+  "description": "Slack Adv",
   "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "author": "webworker@live.com",
+  "repository": "https://github.com/webworker01/recipe-slack",
   "license": "MIT",
   "config": {
     "serviceURL": "https://{teamId}.slack.com",

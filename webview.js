@@ -1,5 +1,6 @@
-import { ipcRenderer } from 'electron';
-import path from 'path';
+// import { ipcRenderer } from 'electron';
+// import path from 'path';
+const path = require('path');
 
 const getTeamIcon = function getTeamIcon(count = 0) {
   let countTeamIconCheck = count;
